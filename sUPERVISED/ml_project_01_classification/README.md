@@ -70,3 +70,10 @@ project/
 ├── src/
 │   ├── preprocess.py
 │   └── train.py
+│   └── app.py
+
+### Run app
+
+- First of all, make sure you have streamlit installed. if not 
+` pip install streamlit `
+then run the app.py by simply run `streamlit run src/app.py` on the terminal.
