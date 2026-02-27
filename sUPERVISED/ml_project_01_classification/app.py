@@ -7,7 +7,9 @@ from datetime import datetime
 # -------------------------------
 # Paths and model load
 # -------------------------------
-BASE_DIR = os.path.abspath(".")
+# BASE_DIR = os.path.abspath(".")
+# model_path = os.path.join(BASE_DIR, "models", "logistic_model.pkl")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 model_path = os.path.join(BASE_DIR, "models", "logistic_model.pkl")
 logs_dir = os.path.join(BASE_DIR, "logs")
 os.makedirs(logs_dir, exist_ok=True)
