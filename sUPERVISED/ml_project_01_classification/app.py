@@ -23,7 +23,7 @@ except Exception as e:
     st.error(f"Error loading model: {e}")
     st.stop()
 
-st.title("Titanic Survival Prediction", text_alignment="center")
+st.title("Titanic Survival Prediction")
 
 # -------------------------------
 # User Inputs
