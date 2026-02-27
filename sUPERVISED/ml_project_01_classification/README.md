@@ -45,6 +45,8 @@ Other models like Random Forest, KNN may be tested later for performance compari
 
 - PassengerId
 - Name
+- Ticket
+- Cabin
 
 4. Columns that need encoding
 
