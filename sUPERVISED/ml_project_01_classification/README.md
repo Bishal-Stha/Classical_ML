@@ -1,3 +1,5 @@
+# Titanic - Machine Learning from Disaster Model
+
 ## Problem Statement
 
 Create a Machine learning model to evaluate the **Titanic - Machine Learning from Disaster** From Kaggle.
@@ -58,3 +60,13 @@ Other models like Random Forest, KNN may be tested later for performance compari
 - Age (Fill with median)
 - Cabin (Drop)
 - Embarked (Fill with mode)
+
+## Project Structure
+
+project/
+├── data/
+├── models/
+│   └── logistic_model.pkl
+├── src/
+│   ├── preprocess.py
+│   └── train.py

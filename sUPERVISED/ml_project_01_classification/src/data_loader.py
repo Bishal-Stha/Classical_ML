@@ -18,7 +18,7 @@ def main():
 
     print("\nStatistical Summary (Numerical Columns):\n", train.describe())
 
-    print("\nStatistical Summary (Categorical Columns):\n", train.describe(include="object"))
+    print("\nStatistical Summary (Categorical Columns):\n", train.describe(include="object")) # type: ignore
 
 if __name__ == "__main__":
     main()
