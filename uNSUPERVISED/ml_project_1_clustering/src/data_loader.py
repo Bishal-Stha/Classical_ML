@@ -9,7 +9,7 @@ def load_data(path):
     return pd.read_csv(DATA_PATH)
 
 def visualize(x,y,visualTitle=None, visualXlabel = None, visualYlabel=None, label=None):
-    plt.plot(x,y,c=label)
+    plt.scatter(x,y,c=str(label))
     if visualTitle is not None:
         plt.title(visualTitle)
     if (visualXlabel is not None) and (visualYlabel is not None):
