@@ -106,9 +106,7 @@ project/
 │   └── dbscan_model.pkl
 ├── src/
 │   ├── preprocess.py
-│   ├── cluster.py
 │   ├── evaluate.py
-│   └── app.py
 ```
 
 ---
